@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Poppins:wght@200&display=swap" rel="stylesheet">    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Hello, world!</title>
+    <style>
+      body{
+    background-color: #dbdbdb;
+}
+svg{
+    width: 3%;
+}
+form{
+
+}
+#input1{
+    border-radius: 25px;
+}
+#input2{
+    border-radius: 25px;
+}
+
+input[type=text], select {
+    width: 100%;
+    border-radius: 25px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+
+    input[type=submit] {
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+    background-color: #120061;
+    }
+    #room_name_top{
+        margin-top: 40px;
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    #username_top{
+        margin-top: 5px;
+        font-size: 30px;
+        padding-left: 20px;
+
+    }
+    body {
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 0 20px;
+      }
+
+      .container {
+        border: 2px solid #dedede;
+        background-color: #f1f1f1;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px 0;
+      }
+
+      .darker {
+        border-color: #ccc;
+        background-color: #ddd;
+      }
+
+      .container::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .container img {
+        float: left;
+        max-width: 60px;
+        width: 100%;
+        margin-right: 20px;
+        border-radius: 50%;
+      }
+
+      .container img.right {
+        float: right;
+        margin-left: 20px;
+        margin-right:0;
+      }
+
+      .time-right {
+        float: right;
+        color: #aaa;
+      }
+
+      .time-left {
+        float: left;
+        color: #999;
+      }
+      h5{
+      text-align: center;
+      font-size: 12px;
+    }
+    h6{
+      text-align: center;
+      font-size: 10px;
+
+
+    }
+    nav{
+      font-family: 'Akaya Kanadaka', cursive;
+    }
+    #post-form{
+      font-family: 'Poppins', sans-serif;
+    }
+    #input1{
+      font-family: 'Poppins', sans-serif;
+      height: 20px;
+    }
+    #input2{
+      font-family: 'Poppins', sans-serif;
+      height: 20px;
+    }
+    h5{
+      text-align: center;
+      font-size: 12px;
+      font-family: 'Poppins', sans-serif;
+    }
+    h6{
+      text-align: center;
+      font-size: 10px;
+      font-family: 'Poppins', sans-serif;
+    }
+    .btn{
+      background: rgb(0, 174, 255);
+      color: white;
+      border-radius: 35px;
+    }
+    .btn:hover{
+      background-color:  rgb(0, 140, 255);
+      color: white;
+      border-radius: 2px;
+    }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="307.4912" y1="216.7054" x2="554.6512" y2="-30.4546" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5609)">
+	<stop  offset="0" style="stop-color:#A7F3CE"/>
+	<stop  offset="1" style="stop-color:#61DB99"/>
+</linearGradient>
+<path style="fill:url(#SVGID_1_);" d="M340.366,164.133c93.488-1.428,169.792,72.153,171.602,165.634
+	c0.266,13.725-1.106,27.084-3.932,39.898c-4.786,21.697-7.631,43.776-7.631,65.995v42.948c0,6.58-5.334,11.914-11.914,11.914
+	h-42.948c-22.219,0-44.298,2.845-65.995,7.631c-12.813,2.826-26.172,4.198-39.897,3.932
+	c-93.48-1.809-167.061-78.111-165.635-171.597C175.407,239.238,249.117,165.527,340.366,164.133z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="388.3985" y1="135.8026" x2="283.4185" y2="240.7726" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5609)">
+	<stop  offset="0" style="stop-color:#61DB99;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#009E74"/>
+</linearGradient>
+<path style="fill:url(#SVGID_2_);" d="M340.366,164.133c93.488-1.428,169.792,72.153,171.602,165.634
+	c0.266,13.725-1.106,27.084-3.932,39.898c-4.786,21.697-7.631,43.776-7.631,65.995v42.948c0,6.58-5.334,11.914-11.914,11.914
+	h-42.948c-22.219,0-44.298,2.845-65.995,7.631c-12.813,2.826-26.172,4.198-39.897,3.932
+	c-93.48-1.809-167.061-78.111-165.635-171.597C175.407,239.238,249.117,165.527,340.366,164.133z"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="129.97" y1="332.7742" x2="390.92" y2="71.8242" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5609)">
+	<stop  offset="0" style="stop-color:#62E1FB"/>
+	<stop  offset="1" style="stop-color:#00A2F3"/>
+</linearGradient>
+<path style="fill:url(#SVGID_3_);" d="M209.098,9.909C95.204,8.169,2.245,97.81,0.039,211.696
+	c-0.323,16.719,1.348,32.996,4.792,48.606c5.83,26.432,9.296,53.331,9.296,80.4v52.322c0,8.016,6.498,14.515,14.515,14.515h52.322
+	c27.068,0,53.967,3.466,80.4,9.296c15.61,3.443,31.886,5.115,48.605,4.791c113.884-2.205,203.525-95.161,201.789-209.053
+	C410.062,101.406,320.264,11.606,209.098,9.909z"/>
+<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="179.0384" y1="218.1926" x2="41.6444" y2="355.5826" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5609)">
+	<stop  offset="0" style="stop-color:#00A2F3;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#0075CD"/>
+</linearGradient>
+<path style="fill:url(#SVGID_4_);" d="M132.193,204.739c-5.816-6.18-14.048-10.061-23.206-10.061
+	c-17.613,0-31.891,14.278-31.891,31.891c0,9.157,3.88,17.389,10.061,23.206l68.794,68.794c5.817,6.18,14.049,10.061,23.206,10.061
+	c17.613,0,31.891-14.278,31.891-31.891c0-9.157-3.881-17.389-10.061-23.206L132.193,204.739z"/>
+<circle style="fill:#FFFFFF;" cx="108.986" cy="226.565" r="31.891"/>
+<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="268.8719" y1="218.196" x2="131.4819" y2="355.586" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5609)">
+	<stop  offset="0" style="stop-color:#00A2F3;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#0075CD"/>
+</linearGradient>
+<path style="fill:url(#SVGID_5_);" d="M222.383,204.739c-5.816-6.18-14.048-10.061-23.206-10.061
+	c-17.613,0-31.891,14.278-31.891,31.891c0,9.157,3.88,17.389,10.061,23.206l68.794,68.794c5.817,6.18,14.049,10.061,23.206,10.061
+	c17.613,0,31.891-14.278,31.891-31.891c0-9.157-3.881-17.389-10.061-23.206L222.383,204.739z"/>
+<circle style="fill:#FFFFFF;" cx="199.178" cy="226.565" r="31.891"/>
+<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="358.7104" y1="218.1945" x2="221.3204" y2="355.5845" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5609)">
+	<stop  offset="0" style="stop-color:#00A2F3;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#0075CD"/>
+</linearGradient>
+<path style="fill:url(#SVGID_6_);" d="M312.572,204.739c-5.816-6.18-14.048-10.061-23.206-10.061
+	c-17.613,0-31.891,14.278-31.891,31.891c0,9.157,3.881,17.389,10.061,23.206l68.794,68.794c5.817,6.18,14.049,10.061,23.206,10.061
+	c17.613,0,31.891-14.278,31.891-31.891c0-9.157-3.881-17.389-10.061-23.206L312.572,204.739z"/>
+<circle style="fill:#FFFFFF;" cx="289.371" cy="226.565" r="31.891"/>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+          <a class="navbar-brand" href="#">DesphixsChat</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Online</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Favourite
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Logout</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn " type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+
+        <form id="post-form" method="POST" action="checkview">
+          {% csrf_token %}
+            <label id="room_name_top">Room Name</label>
+            <textarea id="input1" class="form-control" aria-label="With textarea" type="text" name="room_name" id="room_name" style="margin-top: 10px;"></textarea>
+            <label id="username_top">Username</label>
+            <textarea id="input2" class="form-control" aria-label="With textarea" type="text" name="username" id="username" style="margin-top: 10px;"></textarea>
+            <input type="submit" value="Start Chat Now!">
+        </form>
+    </div>
+    <h5 >&copy;	Copyright Reserved Desphixs - 2021</h5>
+<h6>Made by Destiny Franks &hearts;	</h6>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
